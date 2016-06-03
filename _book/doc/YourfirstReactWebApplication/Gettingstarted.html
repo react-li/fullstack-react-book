@@ -1,0 +1,352 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <title>Getting started · GitBook</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.0.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="BuildingProductHunt.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../start.html">
+            
+                <a href="../../start.html">
+            
+                    
+                    fullstack-react
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    Your first React Web Application
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="BuildingProductHunt.html">
+            
+                <a href="BuildingProductHunt.html">
+            
+                    
+                    Building Product Hunt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.2" data-path="Gettingstarted.html">
+            
+                <a href="Gettingstarted.html">
+            
+                    
+                    Getting started
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Getting started</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="sample-code">Sample Code</h2>
+<p>All the code samples are included with this course. 
+Still, we highly recommend implementing the code yourself along with us throughout each section. 
+Playing around with examples and sample code will help solidify and strengthen concepts.
+Provided with the sample code is a very simple Node.js web server that we&#x2019;ll be using to run our application.</p>
+<h2 id="code-editor">Code editor</h2>
+<p>As you&#x2019;ll be writing code throughout this course, 
+you&#x2019;ll need to make sure you have a code editor you&#x2019;re comfortable working with. 
+If you don&#x2019;t already have a preferred editor, we recommend installing Atom4 or Sublime Text5.</p>
+<h2 id="nodejs-and-npm">Node.js and NPM</h2>
+<p>For all the projects in this course, 
+we&#x2019;ll need to make sure we have a working Node.js6 development environment along with NPM.</p>
+<p>There are a couple different ways you can install Node.js so please refer to the Node.js website for
+detailed information: <a href="https://nodejs.org/download/7" _target="blank">https://nodejs.org/download/7</a></p>
+<blockquote>
+<p>If you&#x2019;re on a Mac, your best bet is to install Node.js directly from the Node.js website instead of through another package manager (like Homebrew). 
+Installing Node.js via Homebrew is known to cause some issues.</p>
+</blockquote>
+<p>The Node Package Manager (npm for short) is installed as a part of Node.js. 
+To check if npm is available as a part of our development environment, we can open a Terminal window and type:</p>
+<pre><code>$ npm -v
+</code></pre><p>If a version number is not printed out and you receive an error, 
+make sure to download a Node.js installer that includes npm.</p>
+<h2 id="browser">Browser</h2>
+<p>Lastly, we highly recommend using the Google Chrome Web Browser8 to develop React apps.
+ We&#x2019;ll use the Chrome developer toolkit throughout this course. 
+To follow along with our development and debugging we recommend downloading it now.</p>
+<h2 id="previewing-the-application">Previewing the application</h2>
+<p>We&#x2019;ll be building a basic React app that will allow us to touch on React&#x2019;s most important concepts at a high-level before diving into them in subsequent sections. 
+Let&#x2019;s begin by taking a look at a working implementation of the app.</p>
+<p>Open up the sample code that came with the course, changing to the voting_app/ directory in the terminal:</p>
+<pre><code>$ cd voting_app/
+</code></pre><blockquote>
+<p>If you&#x2019;re not familiar with cd, it stands for &#x201C;change directory.&#x201D; If you&#x2019;re on a Mac, do the
+following to open terminal and change to the proper directory:</p>
+<pre><code>1. Openup/Applications/Utilities/Terminal.app.
+2. Typecd,withouthittingenter.
+3. Tap the spacebar.
+4. IntheFinder,dragthevoting_app/folderontoyourterminalwindow. 5. Hit Enter.
+</code></pre><p>Your terminal is now in the proper directory.</p>
+<p>Throughout the book, a codeblock starting with a $ signifies a command to be run in your terminal.</p>
+<p>Windows Users: We&#x2019;ll be using Linux/Mac-style commands on the command line through- out this book. 
+We&#x2019;d highly recommend installing Cygwin9 as it will let you run commands just as we have printed here.</p>
+</blockquote>
+<p>First, we&#x2019;ll need to use npm to install all our dependencies:</p>
+<pre><code>$ npm install
+</code></pre><p>With our dependencies installed, we can boot the server using the npm run script server:</p>
+<pre><code>$ npm run server
+</code></pre><p>Heading to our browser, we can view the running application at the URL: <a href="http://localhost:300010" _target="blank">http://localhost:300010</a>.</p>
+<p><img src="../../img/completed.png" alt=""></p>
+<p>Completed version of the app</p>
+<blockquote>
+<p> Mac users can click on links inside of terminal. Just hold command and double-click on the link:</p>
+</blockquote>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="BuildingProductHunt.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Building Product Hunt">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Getting started","level":"1.4.2","depth":2,"previous":{"title":"Building Product Hunt","level":"1.4.1","depth":2,"path":"doc/YourfirstReactWebApplication/BuildingProductHunt.md","ref":"doc/YourfirstReactWebApplication/BuildingProductHunt.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"doc/YourfirstReactWebApplication/Gettingstarted.md","mtime":"2016-06-03T03:21:05.000Z","type":"markdown"},"gitbook":{"version":"3.0.3","time":"2016-06-03T03:01:03.289Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/buttons.js"></script>
+        
+    
+
+    </body>
+</html>
+

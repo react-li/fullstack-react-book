@@ -86,4 +86,15 @@ $ npm run server
 ```
 
 
+Heading to our browser, we can view the running application at the URL: http://localhost:300010.
+
+
+![](../../img/completed.png)
+
+Completed version of the app
+
+
+>  Mac users can click on links inside of terminal. Just hold command and double-click on the link:
+
+
 

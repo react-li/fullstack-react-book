@@ -10,4 +10,4 @@
  
  如果您想提高自己的编程,可以接翻译 任务
  
- ![fullstack-react-hero-book](./book/img/fullstack-react-hero-book.png)
+ ![fullstack-react-hero-book](./img/fullstack-react-hero-book.png)
