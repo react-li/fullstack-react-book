@@ -3,7 +3,7 @@
 
 - [fullstack-react](start.md)
 
-- [简介](README.md)
+- [introduction](README.md)
 
 - Your first React Web Application
     - [Building Product Hunt](doc/YourfirstReactWebApplication/BuildingProductHunt.md)
